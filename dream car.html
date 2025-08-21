@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <style>
+            .box{
+            background-color: #028482;
+            text-align: center;
+            color:#ffffff;
+        }
+        .item{
+            color:#ffffff;
+            padding-right:25px;
+            padding-bottom:10px;
+            padding-top:10px;
+        }
+        .item:hover {
+            text-decoration: underline;
+            transform: translateY(0px);
+        }
+        .box1{
+            padding:10px;
+            animation: text1 3s 0s 1 ease alternate;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        @keyframes text1{
+            0%{
+                transform:translate(-20px,20px);
+            }
+            100%{
+                transform:translate(5px,5px);
+            }
+        }
+        .head1{
+            padding-top:20px;
+            padding-left:10px;
+        }
+        .para1{
+            padding-left:10px;
+        }
+        .but{
+            padding-left: 20px;
+            background-color: #028482;
+            color:#ffffff;
+            border-radius: 15px;
+            height:50px;
+            width:150px;
+            text-align: center;
+        }
+        .imge{
+            justify-content: center;
+            width:70%;
+            animation: image 3s 0s 1 ease alternate;
+            border-radius: 15px;
+            height:500px;
+        }
+        @keyframes image{
+            0% {
+                transform: translate(60px,60px);
+            }
+            
+            100% {
+                transform: translate(5px,5px);
+                
+            }
+        }
+
+        .small-box{
+            background-color: #aed9e0;
+            min-height: 150px;
+            padding: 50px;
+            text-align: center;
+            margin:40px;
+            border-radius:15px;
+        }
+        .small-box:hover {
+            transform: translate(0, -20px);
+        }
+        .head2{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .para2{
+            font-size:17px;
+        }
+        .footer{
+            background-color: #028482;
+            text-align: center;
+            color:#ffffff;
+            min-height:50px;
+        }
+        .para3{
+            padding-top:10px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h1> Dream Car </h1>
+            <div class="d-flex flex-row justify-content-center">
+                <nav class="item"> Home </nav>
+                <nav class="item"> About </nav>
+                <nav class="item"> Services </nav>
+                <nav class="item"> Contact </nav>
+            </div>
+        </div>
+        <div class="box1 ">
+            <h1 class="head1">Welcome to Dream Car!</h1>
+            <p class="para1">Explore your dream and discover it features </p>
+            <button class="but">View Details</button>
+        </div>
+        <div class="box1 d-flex justify-content-center">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-bg.png" class="imge" />
+        </div>
+        <div class="small-box d-flex flex-column justify-content-center">
+            <h1 > Customize </h1>
+            <p class="para2"> Customize your dream Car with advanced tools. </p>
+        </div>
+        <div class="small-box d-flex flex-column justify-content-center">
+            <h1 > Performance </h1>
+            <p class="para2"> Experince high performance metrics and specifications. </p>
+        </div>
+        <div class="small-box d-flex flex-column justify-content-center">
+            <h1 > User-Friendly  </h1>
+            <p class="para2"> Designed for easy navigation and User-Friendly Experience </p>
+        </div>
+        <div class="footer">
+            <p class="para3"> 2024 Dream Car UI. All rights reserved. </p>
+        </div>
+    </body>
+</html>
